@@ -4,20 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+       <link rel="stylesheet" href="styles.css">
     <title>Neural Novel</title>
-    <style>
-        #mindstudio-frame {
-            width: 100%;
-            height: 100vh;
-        }
-
-        #fullscreen-text {
-            cursor: pointer;
-            color: blue;
-            text-decoration: underline;
-        }
-    </style>
 </head>
 
 <body>
@@ -28,9 +16,12 @@
 
     <section>
         <h2>Neural Chat</h2>
-        <p>This is an A.I developed to help you write Novels, what are you waiting for?</p>
+        <p>This is an A.I developed to help of you write Novels,
+          what are you waiting for?
+        </p>
     </section>
 
+ 
     <!-- Add the provided script and iframe -->
     <div class="content">
         <script type="text/javascript">
@@ -40,30 +31,15 @@
             };
         </script>
         <script src="https://api.youai.ai/v1/embed.js"></script>
-        <div>
-            <p id="fullscreen-text" onclick="toggleFullScreen()">Click here to go full screen</p>
-            <iframe id="mindstudio-frame" referrerpolicy="origin" title="AI Embed" frameborder="0"></iframe>
-        </div>
+        <iframe id="mindstudio-frame" referrerpolicy="origin" title="AI Embed" frameborder="0"></iframe>
     </div>
-
     <section>
-        <h2>Contact Us</h2>
-        <p>Feel free to reach out to us at <a href="mailto:info@example.com">info@example.com</a>.</p>
-    </section>
+      <h2>Contact Us</h2>
+      <p>Feel free to reach out to us at info@example.com</a>.</p>
+  </section>
 
-    <script>
-        function toggleFullScreen() {
-            var iframe = document.getElementById("mindstudio-frame");
-
-            if (!document.fullscreenElement) {
-                iframe.requestFullscreen().catch(err => {
-                    console.error(`Error attempting to enable fullscreen: ${err.message}`);
-                });
-            } else {
-                document.exitFullscreen();
-            }
-        }
-    </script>
 </body>
 
 </html>
+
+
