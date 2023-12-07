@@ -1,0 +1,512 @@
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background: none !important;
+  color: #fdfdfd; /* Light text color */
+}
+
+/* Reset some default styles for better consistency */
+body,
+h1,
+h2,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #fdfdfd;
+  line-height: 1.6;
+  background: linear-gradient(45deg, #080808, #333);
+}
+
+header,
+section,
+footer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+header {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header p,
+section p {
+  font-size: 1.2em;
+}
+
+section h2,
+section {
+  color: #fdfdfd;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+#mindstudio-frame {
+  width: 100%;
+  height: 600px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+}
+
+/* Responsive styles for the iframe */
+@media screen and (max-width: 600px) {
+  #mindstudio-frame {
+    height: 300px;
+  }
+}
+
+footer {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd; /* Light text color */
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+body {
+  background: linear-gradient(45deg, #080808, #333);
+  font-family: "Lato", sans-serif;
+  color: #fdfdfd;
+}
+
+header,
+section,
+footer {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#mindstudio-frame {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/* Reset some default styles for better consistency */
+body,
+h1,
+h2,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #fdfdfd;
+  line-height: 1.6;
+  background: linear-gradient(45deg, #080808, #333);
+}
+
+/* Shared styles for header, section, and footer */
+header,
+section,
+footer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Background styles with backdrop-filter for header, section, and footer */
+header {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section {
+  background: linear-gradient(
+    45deg,
+    rgba(24, 24, 24, 0.9),
+    rgba(51, 51, 51, 0.9)
+  );
+  color: #fdfdfd;
+}
+
+footer {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Header specific styles */
+header h1 {
+  font-size: 2em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Section specific styles */
+section h2 {
+  color: #fdfdfd;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Content specific styles */
+.content {
+  background: none !important;
+  color: #fdfdfd;
+}
+
+/* Iframe styles */
+#mindstudio-frame {
+  width: 100%;
+  height: 600px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+}
+
+/* Responsive styles for the iframe */
+@media screen and (max-width: 600px) {
+  #mindstudio-frame {
+    height: 300px;
+  }
+}
+/* Reset some default styles for better consistency */
+body,
+h1,
+h2,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #fdfdfd;
+  line-height: 1.6;
+  background: linear-gradient(45deg, #080808, #333);
+}
+
+/* Shared styles for header, section, and footer */
+header,
+section,
+footer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Background styles with backdrop-filter for header, section, and footer */
+header {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section {
+  background: linear-gradient(
+    45deg,
+    rgba(24, 24, 24, 0.9),
+    rgba(51, 51, 51, 0.9)
+  );
+  color: #fdfdfd;
+}
+
+footer {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Header specific styles */
+header h1 {
+  font-size: 2em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Section specific styles */
+section h2 {
+  color: #fdfdfd;
+}
+
+/* Content specific styles */
+.content {
+  background: none !important;
+  color: #fdfdfd;
+}
+
+/* Iframe styles */
+#mindstudio-frame {
+  width: 50%;
+  height: 400px !important; /* Adjust the height as needed and set !important */
+  border: 1px solid rgba(255, 255, 255, 0.18) !important; /* Adjust border color and transparency */
+  border-radius: 10px !important; /* Optional: add some border radius for a softer look */
+}
+
+/* Responsive styles for the iframe */
+@media screen and (max-width: 600px) {
+  #mindstudio-frame {
+    height: 400px !important; /* Adjust the height for smaller screens */
+  }
+}
+/* Reset default styles for better consistency */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #fdfdfd;
+  line-height: 1.6;
+  background: linear-gradient(45deg, #080808, #333);
+}
+
+/* Shared styles for header, section, and footer */
+header,
+section,
+footer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Background styles with subtle backdrop-filter for header, section, and footer */
+header {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section {
+  background: linear-gradient(
+    45deg,
+    rgba(24, 24, 24, 0.9),
+    rgba(51, 51, 51, 0.9)
+  );
+  color: #fdfdfd;
+}
+
+footer {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Header specific styles */
+header h1 {
+  font-size: 2em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Section specific styles */
+section h2 {
+  color: #fdfdfd;
+}
+
+/* Content specific styles */
+.content {
+  background: none !important;
+  color: #fdfdfd;
+}
+
+/* Iframe styles */
+#mindstudio-frame {
+  width: 50%;
+  height: 400px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: 10px !important;
+}
+
+/* Responsive styles for the iframe */
+@media screen and (max-width: 600px) {
+  #mindstudio-frame {
+    height: 400px !important;
+  }
+}
+/* Reset default styles for better consistency */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  transition:
+    color 0.3s ease-in-out,
+    background 0.3s ease-in-out;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #fdfdfd;
+  line-height: 1.6;
+  background: linear-gradient(45deg, #080808, #333) !important;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Shared styles for header, section, and footer */
+header,
+section,
+footer {
+  max-width: 800px !important;
+  margin: 20px auto !important;
+  padding: 0 20px !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  transition:
+    background 0.3s ease-in-out,
+    border 0.3s ease-in-out;
+}
+
+/* Background styles with subtle backdrop-filter for header, section, and footer */
+header {
+  background: linear-gradient(
+    45deg,
+    rgba(5, 5, 5, 0.9),
+    rgba(51, 51, 51, 0.9)
+  ) !important;
+  color: #fdfdfd !important;
+  text-align: center !important;
+  padding: 20px 0 !important;
+  transition: background 0.3s ease-in-out;
+}
+
+section {
+  background: linear-gradient(
+    45deg,
+    rgba(24, 24, 24, 0.9),
+    rgba(51, 51, 51, 0.9)
+  ) !important;
+  color: #fdfdfd !important;
+}
+
+footer {
+  background: linear-gradient(
+    45deg,
+    rgba(5, 5, 5, 0.9),
+    rgba(51, 51, 51, 0.9)
+  ) !important;
+  color: #fdfdfd !important;
+  text-align: center !important;
+  padding: 10px 0 !important;
+  position: fixed !important;
+  width: 100% !important;
+  bottom: 0 !important;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Header specific styles */
+header h1 {
+  font-size: 2em !important;
+  transition: color 0.3s ease-in-out;
+}
+
+header p {
+  font-size: 1.2em !important;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Section specific styles */
+section h2 {
+  color: #fdfdfd !important;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Content specific styles */
+.content {
+  background: none !important;
+  color: #fdfdfd !important;
+  transition:
+    background 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+/* Iframe styles */
+#mindstudio-frame {
+  width: 50% !important;
+  height: 400px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: 10px !important;
+  transition: border 0.3s ease-in-out;
+}
+
+/* Responsive styles for the iframe */
+@media screen and (max-width: 600px) {
+  #mindstudio-frame {
+    height: 400px !important;
+  }
+}
