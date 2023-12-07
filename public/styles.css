@@ -510,3 +510,8 @@ section h2 {
     height: 400px !important;
   }
 }
+#fullscreen-text {
+  cursor: pointer;
+  color: #299ac7 !important;
+  text-decoration: underline;
+}
