@@ -515,3 +515,151 @@ section h2 {
   color: #299ac7 !important;
   text-decoration: underline;
 }
+/* Reset default styles for better consistency */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  transition:
+    color 0.3s ease-in-out,
+    background 0.3s ease-in-out;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #fdfdfd;
+  line-height: 1.6;
+  background: linear-gradient(45deg, #080808, #333);
+}
+
+/* Shared styles for header, section, and footer */
+header,
+section,
+footer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition:
+    background 0.3s ease-in-out,
+    border 0.3s ease-in-out;
+}
+
+/* Background styles with subtle backdrop-filter for header, section, and footer */
+header {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section {
+  background: linear-gradient(
+    45deg,
+    rgba(24, 24, 24, 0.9),
+    rgba(51, 51, 51, 0.9)
+  );
+  color: #fdfdfd;
+}
+
+footer {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Header specific styles */
+header h1 {
+  font-size: 2em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Section specific styles */
+section h2 {
+  color: #fdfdfd;
+}
+
+/* Content specific styles */
+.content {
+  background: none !important;
+  color: #fdfdfd;
+}
+
+/* Iframe styles */
+#mindstudio-frame {
+  width: 50%;
+  height: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  transition: border 0.3s ease-in-out;
+}
+
+/* Responsive styles for the iframe */
+@media screen and (max-width: 600px) {
+  #mindstudio-frame {
+    height: 400px;
+  }
+}
+
+#fullscreen-text {
+  cursor: pointer;
+  color: #299ac7 !important;
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#mindstudio-frame {
+  width: 50%;
+  height: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  transition: border 0.3s ease-in-out;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mindstudio-frame {
+  width: 100%;
+  height: 600px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Responsive styles for the iframe */
+@media screen and (max-width: 600px) {
+  #mindstudio-frame {
+    height: 300px;
+  }
+}
+
+header {
+  width: 100vw !important;
+}
