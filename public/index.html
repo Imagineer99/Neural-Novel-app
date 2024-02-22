@@ -7,12 +7,42 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Neural Novel</title>
+    <title>CogniHub</title>
+
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        #loadingAnimation {
+            display: none;
+            text-align: center;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        #loadingAnimation::after {
+            content: '...';
+            animation: dots 1s infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% {
+                content: '.';
+            }
+            40% {
+                content: '..';
+            }
+            60% {
+                content: '...';
+            }
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>Neural Novel</h1>
+        <h1>CogniHub</h1>
         <nav>
             <ul>
                 <li><a href="#">Support</a></li>
@@ -27,40 +57,64 @@
 
     <section id="featured">
         <div class="container">
-            <h2>Featured Models</h2>
+            <h2>Welcome to CogniHub!</h2>
 
             <div class="stories">
                 <div class="story">
                     <img src="https://i.ibb.co/1618CjL/OIG-1.png">
-                    <h3>Mixtral MoE! </h3>
+                    <h3>GGUF Quantization </h3>
                     <p></p>
-                    <!-- Update the href attribute with the desired URL -->
-                    <a href="https://mixtral-chat.neuralnovel.com/" target="_blank">Chat Now</a>
-                </div>
-
-                <div class="story">
-                    <img src="https://i.ibb.co/1618CjL/OIG-1.png">
-                    <h3>Mixtral MoE! </h3>
-                    <p></p>
-                    <!-- Update the href attribute with the desired URL -->
-                    <a href="https://mixtral-chat.neuralnovel.com/" target="_blank">Chat Now</a>
+                    <!-- Update the onclick attribute to trigger the JavaScript function -->
+                    <a href="#" onclick="showInputForm()">Purchase</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Add the provided script and iframe -->
-    <div class="content">
-        <script type="text/javascript">
-            window.MindStudioSettings = {
-                publicToken: "y",
-                appId: "z"
-            };
-        </script>
+    <!-- Add the input forms and loading animation -->
+    <div id="inputForms" class="hidden">
+        <p>Model Repo: <input type="text" id="modelRepoInput"></p>
+        <button onclick="checkModelRepo()">Check Model Repo</button>
+        <div id="loadingAnimation" class="hidden">Checking</div>
     </div>
 
+    <script type="text/javascript">
+        function showInputForm() {
+            // Hide the current story
+            document.querySelector('.story').style.display = 'none';
+
+            // Show the input forms
+            document.getElementById('inputForms').classList.remove('hidden');
+        }
+
+        function showLoadingAnimation() {
+            // Show loading animation
+            document.getElementById('loadingAnimation').style.display = 'block';
+        }
+
+        function hideLoadingAnimation() {
+            // Hide loading animation
+            document.getElementById('loadingAnimation').style.display = 'none';
+        }
+
+        function checkModelRepo() {
+            // Show loading animation
+            showLoadingAnimation();
+
+            // Simulate a delay (you may replace this with actual validation logic)
+            setTimeout(function () {
+                // Hide input forms and loading animation
+                document.getElementById('inputForms').classList.add('hidden');
+                hideLoadingAnimation();
+
+                // Redirect to the specified page
+                window.location.href = 'https://buy.stripe.com/test_7sIaFt0MnauH5J69AA';
+            }, 2000); // Adjust the timeout as needed
+        }
+    </script>
+
     <footer>
-        <p>&copy; 2023 Neural Novel</p>
+        <p>&copy; 2024 CogniHub</p>
     </footer>
 </body>
 
