@@ -1,12 +1,10 @@
 .content {
-  max-width: 800px;
   margin: 20px auto;
   padding: 0 20px;
   background: none !important;
-  color: #fdfdfd; /* Light text color */
+  color: #fdfdfd;
+  /* Light text color */
 }
-
-/* Reset some default styles for better consistency */
 body,
 h1,
 h2,
@@ -15,50 +13,41 @@ a {
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "Lato", sans-serif;
   color: #fdfdfd;
   line-height: 1.6;
   background: linear-gradient(45deg, #080808, #333);
 }
-
 header p,
 section p {
   font-size: 1.2em;
 }
-
 section h2,
 section {
   color: #fdfdfd;
 }
-
 .content {
-  max-width: 800px;
   margin: 20px auto;
   padding: 0 20px;
 }
-
 #mindstudio-frame {
   width: 100%;
   height: 600px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 10px;
 }
-
 /* Responsive styles for the iframe */
 @media screen and (max-width: 600px) {
   #mindstudio-frame {
     height: 300px;
   }
 }
-
 body {
   background: linear-gradient(45deg, #080808, #333);
   font-family: "Lato", sans-serif;
   color: #fdfdfd;
 }
-
 header,
 section,
 #mindstudio-frame {
@@ -74,19 +63,14 @@ a {
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "Lato", sans-serif;
   color: #fdfdfd;
   line-height: 1.6;
   background: linear-gradient(45deg, #080808, #333);
 }
-
 /* Shared styles for header, section, and footer */
-header,
-section,
-
-
+header, section, 
 /* Background styles with backdrop-filter for header, section, and footer */
 header {
   background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
@@ -94,7 +78,6 @@ header {
   text-align: center;
   padding: 20px 0;
 }
-
 section {
   background: linear-gradient(
     45deg,
@@ -103,33 +86,26 @@ section {
   );
   color: #fdfdfd;
 }
-
 /* Header specific styles */
 header h1 {
   font-size: 2em;
 }
-
 header p {
   font-size: 1.2em;
 }
-
 /* Section specific styles */
 section h2 {
   color: #fdfdfd;
 }
-
 .content {
-  max-width: 800px;
   margin: 20px auto;
   padding: 0 20px;
 }
-
 /* Content specific styles */
 .content {
   background: none !important;
   color: #fdfdfd;
 }
-
 /* Iframe styles */
 #mindstudio-frame {
   width: 100%;
@@ -137,7 +113,6 @@ section h2 {
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 10px;
 }
-
 /* Responsive styles for the iframe */
 @media screen and (max-width: 600px) {
   #mindstudio-frame {
@@ -153,19 +128,14 @@ a {
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "Lato", sans-serif;
   color: #fdfdfd;
   line-height: 1.6;
   background: linear-gradient(45deg, #080808, #333);
 }
-
 /* Shared styles for header, section, and footer */
-header,
-section,
-
-
+header, section, 
 /* Background styles with backdrop-filter for header, section, and footer */
 header {
   background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
@@ -173,7 +143,6 @@ header {
   text-align: center;
   padding: 20px 0;
 }
-
 section {
   background: linear-gradient(
     45deg,
@@ -182,39 +151,37 @@ section {
   );
   color: #fdfdfd;
 }
-
 /* Header specific styles */
 header h1 {
   font-size: 2em;
 }
-
 header p {
   font-size: 1.2em;
 }
-
 /* Section specific styles */
 section h2 {
   color: #fdfdfd;
 }
-
 /* Content specific styles */
 .content {
   background: none !important;
   color: #fdfdfd;
 }
-
 /* Iframe styles */
 #mindstudio-frame {
   width: 50%;
-  height: 400px !important; /* Adjust the height as needed and set !important */
-  border: 1px solid rgba(255, 255, 255, 0.18) !important; /* Adjust border color and transparency */
-  border-radius: 10px !important; /* Optional: add some border radius for a softer look */
+  height: 400px !important;
+  /* Adjust the height as needed and set !important */
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  /* Adjust border color and transparency */
+  border-radius: 10px !important;
+  /* Optional: add some border radius for a softer look */
 }
-
 /* Responsive styles for the iframe */
 @media screen and (max-width: 600px) {
   #mindstudio-frame {
-    height: 400px !important; /* Adjust the height for smaller screens */
+    height: 400px !important;
+    /* Adjust the height for smaller screens */
   }
 }
 /* Reset default styles for better consistency */
@@ -230,19 +197,14 @@ a {
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "Lato", sans-serif;
   color: #fdfdfd;
   line-height: 1.6;
   background: linear-gradient(45deg, #080808, #333);
 }
-
 /* Shared styles for header, section, and footer */
-header,
-section,
-
-
+header, section, 
 /* Background styles with subtle backdrop-filter for header, section, and footer */
 header {
   background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
@@ -250,7 +212,6 @@ header {
   text-align: center;
   padding: 20px 0;
 }
-
 section {
   background: linear-gradient(
     45deg,
@@ -259,27 +220,22 @@ section {
   );
   color: #fdfdfd;
 }
-
 /* Header specific styles */
 header h1 {
   font-size: 2em;
 }
-
 header p {
   font-size: 1.2em;
 }
-
 /* Section specific styles */
 section h2 {
   color: #fdfdfd;
 }
-
 /* Content specific styles */
 .content {
   background: none !important;
   color: #fdfdfd;
 }
-
 /* Iframe styles */
 #mindstudio-frame {
   width: 50%;
@@ -287,7 +243,6 @@ section h2 {
   border: 1px solid rgba(255, 255, 255, 0.18) !important;
   border-radius: 10px !important;
 }
-
 /* Responsive styles for the iframe */
 @media screen and (max-width: 600px) {
   #mindstudio-frame {
@@ -310,7 +265,6 @@ a {
     color 0.3s ease-in-out,
     background 0.3s ease-in-out;
 }
-
 body {
   font-family: "Lato", sans-serif;
   color: #fdfdfd;
@@ -318,12 +272,8 @@ body {
   background: linear-gradient(45deg, #080808, #333) !important;
   transition: background 0.3s ease-in-out;
 }
-
 /* Shared styles for header, section, and footer */
-header,
-section,
-
-
+header, section, 
 /* Background styles with subtle backdrop-filter for header, section, and footer */
 header {
   background: linear-gradient(
@@ -336,7 +286,6 @@ header {
   padding: 20px 0 !important;
   transition: background 0.3s ease-in-out;
 }
-
 section {
   background: linear-gradient(
     45deg,
@@ -345,24 +294,20 @@ section {
   ) !important;
   color: #fdfdfd !important;
 }
-
 /* Header specific styles */
 header h1 {
   font-size: 2em !important;
   transition: color 0.3s ease-in-out;
 }
-
 header p {
   font-size: 1.2em !important;
   transition: color 0.3s ease-in-out;
 }
-
 /* Section specific styles */
 section h2 {
   color: #fdfdfd !important;
   transition: color 0.3s ease-in-out;
 }
-
 /* Content specific styles */
 .content {
   background: none !important;
@@ -371,7 +316,6 @@ section h2 {
     background 0.3s ease-in-out,
     color 0.3s ease-in-out;
 }
-
 /* Iframe styles */
 #mindstudio-frame {
   width: 50% !important;
@@ -380,7 +324,6 @@ section h2 {
   border-radius: 10px !important;
   transition: border 0.3s ease-in-out;
 }
-
 /* Responsive styles for the iframe */
 @media screen and (max-width: 600px) {
   #mindstudio-frame {
@@ -408,7 +351,6 @@ a {
     color 0.3s ease-in-out,
     background 0.3s ease-in-out;
 }
-
 body {
   font-family: "Lato", sans-serif;
   color: #fdfdfd;
@@ -419,21 +361,19 @@ body {
     rgba(255, 255, 255, 0.6)
   );
 }
-
 /* Shared styles for header, section, and footer */
 header,
 section,
 footer {
-  max-width: 800px;
   margin: 20px auto;
   padding: 0 20px;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  display: table;
   transition:
     background 0.3s ease-in-out,
     border 0.3s ease-in-out;
 }
-
 /* Background styles with subtle backdrop-filter for header, section, and footer */
 header {
   background: linear-gradient(
@@ -445,7 +385,6 @@ header {
   text-align: center;
   padding: 20px 0;
 }
-
 section {
   background: linear-gradient(
     45deg,
@@ -454,28 +393,23 @@ section {
   );
   color: #fdfdfd;
 }
-
 /* Header specific styles */
 header h1 {
   font-size: 2em;
   font-weight: 700 !important;
 }
-
 header p {
   font-size: 1.2em;
 }
-
 /* Section specific styles */
 section h2 {
   color: #fdfdfd;
 }
-
 /* Content specific styles */
 .content {
   background: none !important;
   color: #fdfdfd;
 }
-
 /* Iframe styles */
 #mindstudio-frame {
   width: 50%;
@@ -484,14 +418,12 @@ section h2 {
   border-radius: 10px;
   transition: border 0.3s ease-in-out;
 }
-
 /* Responsive styles for the iframe */
 @media screen and (max-width: 600px) {
   #mindstudio-frame {
     height: 400px;
   }
 }
-
 #fullscreen-text {
   cursor: pointer;
   color: #299ac7 !important;
@@ -503,14 +435,14 @@ section h2 {
   align-items: center;
   justify-content: center;
 }
-
 #mindstudio-frame {
   width: 50%;
   height: 400px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 10px;
   transition: border 0.3s ease-in-out;
-  margin-top: 20px; /* Adjust the margin as needed */
+  margin-top: 20px;
+  /* Adjust the margin as needed */
 }
 .content {
   max-width: 800px;
@@ -520,22 +452,20 @@ section h2 {
   flex-direction: column;
   align-items: center;
 }
-
 #mindstudio-frame {
   width: 100%;
   height: 600px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 10px;
-  margin-top: 20px; /* Adjust the margin as needed */
+  margin-top: 20px;
+  /* Adjust the margin as needed */
 }
-
 /* Responsive styles for the iframe */
 @media screen and (max-width: 600px) {
   #mindstudio-frame {
     height: 300px;
   }
 }
-
 header {
   width: 100vw !important;
 }
@@ -544,13 +474,11 @@ body {
   margin: 0;
   background-color: #f1f1f1;
 }
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px;
 }
-
 header {
   background-color: #212946;
   color: #fff;
@@ -558,90 +486,78 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
 .logo img {
   width: 60px;
 }
-
 nav ul {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
 }
-
 nav a {
   color: #fff;
   text-decoration: none;
   padding: 10px 15px;
 }
-
 #hero h1 {
   color: white;
   font-size: 50px;
 }
-
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
-
 section {
   padding: 40px 0;
 }
-
 body {
   font-family: "Open Sans", sans-serif !important;
   margin: 0 !important;
   background-color: #f1f1f1 !important;
 }
-
 .container {
   max-width: 1200px !important;
   margin: 0 auto !important;
   padding: 15px !important;
 }
-
 header {
-  background-color: #2c3e50 !important; /* Dark blue */
-  color: #ecf0f1 !important; /* Light gray */
+  background-color: #2c3e50 !important;
+  /* Dark blue */
+  color: #ecf0f1 !important;
+  /* Light gray */
   padding: 20px !important;
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1) !important;
 }
-
 .logo img {
   width: 60px !important;
 }
-
 nav ul {
   list-style: none !important;
   display: flex !important;
   margin: 0 !important;
   padding: 0 !important;
 }
-
 nav a {
   color: #ecf0f1 !important;
   text-decoration: none !important;
   padding: 10px 15px !important;
   transition: color 0.3s ease !important;
 }
-
 nav a:hover {
-  color: #3498db !important; /* Light blue on hover */
+  color: #3498db !important;
+  /* Light blue on hover */
 }
-
 .stories {
   display: flex !important;
   justify-content: space-between !important;
   margin-bottom: 30px !important;
   margin-top: 30px !important;
 }
-
 .story {
   background-color: #fff !important;
   padding-bottom: 10px !important;
@@ -653,41 +569,33 @@ nav a:hover {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1) !important;
   transition: transform 0.3s ease !important;
 }
-
 .story:hover {
   transform: scale(1.02) !important;
 }
-
 .story img {
   width: 100% !important;
   border-top-left-radius: 10px !important;
   border-top-right-radius: 10px !important;
 }
-
 #recent {
   margin-top: 50px !important;
 }
-
 #recent h2 {
   color: #2c3e50 !important;
 }
-
 @media only screen and (max-width: 768px) {
   .story {
     width: 100% !important;
   }
 }
-
 @media only screen and (max-width: 600px) {
   header {
     flex-direction: column !important;
     align-items: flex-start !important;
   }
-
   .logo img {
     margin-bottom: 10px !important;
   }
-
   nav ul {
     margin-top: 10px !important;
   }
@@ -698,7 +606,6 @@ nav a:hover {
   flex-wrap: wrap;
   margin-top: 30px;
 }
-
 .story {
   background-color: #0000008c !important;
   border-radius: 10px;
@@ -708,28 +615,23 @@ nav a:hover {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
-
 .story:hover {
   transform: scale(1.02);
 }
-
 .story img {
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
 .story h3 {
   font-size: 1.5em;
   margin-top: 10px;
   color: #ffffff9f !important;
 }
-
 .story p {
   color: #777;
   margin-bottom: 10px;
 }
-
 .story a {
   display: inline-block;
   background-color: #3498db;
@@ -739,7 +641,6 @@ nav a:hover {
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
-
 .story a:hover {
   background-color: #2980b9;
 }
@@ -748,7 +649,6 @@ body {
   font-family: "Open Sans", sans-serif !important;
   background-color: #f1f1f1 !important;
 }
-
 header {
   background-color: #333 !important;
   color: #fff !important;
@@ -757,32 +657,27 @@ header {
   text-align: center !important;
   width: 100%;
   box-sizing: border-box;
-  margin: 0; /* Remove default margin */
+  margin: 0;
+  /* Remove default margin */
 }
-
 .logo img {
   width: 60px !important;
 }
-
 nav {
   margin-top: 10px !important;
 }
-
 nav a {
   color: #fff !important;
   text-decoration: none !important;
   padding: 10px 15px !important;
   margin: 0 10px !important;
 }
-
 nav a:hover {
   border-bottom: 2px solid #fff !important;
 }
-
 main {
   padding: 20px;
 }
-
 section {
   padding: 40px 0;
 }
@@ -791,42 +686,37 @@ body {
   font-family: "Open Sans", sans-serif !important;
   background-color: #f1f1f1 !important;
 }
-
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(51, 51, 51, 0.8); /* Adjust transparency here */
+  background-color: rgba(51, 51, 51, 0.8);
+  /* Adjust transparency here */
   color: #fff !important;
   padding: 20px !important;
   text-align: center !important;
   box-sizing: border-box;
 }
-
 .logo img {
   width: 60px !important;
 }
-
 nav {
   margin-top: 10px !important;
 }
-
 nav a {
   color: #fff !important;
   text-decoration: none !important;
   padding: 10px 15px !important;
   margin: 0 10px !important;
 }
-
 nav a:hover {
   border-bottom: 2px solid #fff !important;
 }
-
 main {
-  padding: 60px 20px 20px; /* Adjust padding to prevent content from being hidden under the fixed header */
+  padding: 60px 20px 20px;
+  /* Adjust padding to prevent content from being hidden under the fixed header */
 }
-
 section {
   padding: 40px 0;
 }
@@ -835,44 +725,41 @@ body {
   font-family: "Open Sans", sans-serif !important;
   background-color: #f1f1f1 !important;
 }
-
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.15); /* Glass morphism background */
-  backdrop-filter: blur(10px); /* Glass morphism effect */
+  background-color: rgba(255, 255, 255, 0.15);
+  /* Glass morphism background */
+  backdrop-filter: blur(10px);
+  /* Glass morphism effect */
   color: #fff !important;
   padding: 20px !important;
   text-align: center !important;
   box-sizing: border-box;
-  z-index: 1000; /* Ensure the header is on top of other content */
+  z-index: 1000;
+  /* Ensure the header is on top of other content */
 }
-
 .logo img {
   width: 60px !important;
 }
-
 nav {
   margin-top: 10px !important;
 }
-
 nav a {
   color: #fff !important;
   text-decoration: none !important;
   padding: 10px 15px !important;
   margin: 0 10px !important;
 }
-
 nav a:hover {
   border-bottom: 2px solid #fff !important;
 }
-
 main {
-  padding: 60px 20px 20px; /* Adjust padding to prevent content from being hidden under the fixed header */
+  padding: 60px 20px 20px;
+  /* Adjust padding to prevent content from being hidden under the fixed header */
 }
-
 section {
   padding: 40px 0;
 }
@@ -881,49 +768,41 @@ body {
   font-family: "Open Sans", sans-serif !important;
   background-color: #f1f1f1 !important;
 }
-
 header {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
   width: 100% !important;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.15
-  ) !important; /* Glass morphism background */
-  backdrop-filter: blur(10px) !important; /* Glass morphism effect */
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  /* Glass morphism background */
+  backdrop-filter: blur(10px) !important;
+  /* Glass morphism effect */
   color: #fff !important;
   padding: 20px !important;
   text-align: center !important;
   box-sizing: border-box !important;
-  z-index: 1000 !important; /* Ensure the header is on top of other content */
+  z-index: 1000 !important;
+  /* Ensure the header is on top of other content */
 }
-
 .logo img {
   width: 60px !important;
 }
-
 nav {
   margin-top: 10px !important;
 }
-
 nav a {
   color: #fff !important;
   text-decoration: none !important;
   padding: 10px 15px !important;
   margin: 0 10px !important;
 }
-
 nav a:hover {
   border-bottom: 2px solid #fff !important;
 }
-
 main {
-  padding: 60px 20px 20px !important; /* Adjust padding to prevent content from being hidden under the fixed header */
+  padding: 60px 20px 20px !important;
+  /* Adjust padding to prevent content from being hidden under the fixed header */
 }
-
 section {
   padding: 60px 0 !important;
 }
@@ -948,14 +827,9 @@ header {
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  background-color: rgba(
-    192,
-    21,
-    21,
-    0.5
-  ); /* Adjust the background color and transparency */
+  background-color: rgba(192, 21, 21, 0.5);
+  /* Adjust the background color and transparency */
 }
-
 header {
   position: fixed;
   top: 0;
@@ -969,41 +843,33 @@ header {
   box-sizing: border-box;
   z-index: 1000;
 }
-
 .logo img {
   width: 60px;
 }
-
 nav {
   margin-top: 10px;
 }
-
 nav a {
   color: #fff;
   text-decoration: none;
   padding: 10px 15px;
   margin: 0 10px;
 }
-
 nav a:hover {
   border-bottom: 2px solid #fff;
 }
-
 main {
   padding: 60px 20px 20px;
 }
-
 section {
-  padding: 40px 0;
+  padding: 50px 0;
 }
-
 .stories {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 30px;
 }
-
 .story {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -1013,28 +879,23 @@ section {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
-
 .story:hover {
   transform: scale(1.02);
 }
-
 .story img {
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
 .story h3 {
   font-size: 1.5em;
   margin-top: 10px;
   color: #333;
 }
-
 .story p {
   color: #aaaaaad1 !important;
   margin-bottom: 10px;
 }
-
 .story a {
   display: inline-block;
   background-color: #3498db;
@@ -1044,26 +905,98 @@ section {
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
-
 .story a:hover {
   background-color: #2980b9;
 }
-
 h1 {
   margin-left: 20px;
 }
-
 h2 {
   margin-top: 00px !important;
 }
 #notfeatured {
   /* Your specific styles for the section with ID "notfeatured" go here */
-
   /* Add any other styles you want */
   margin-top: -55px !important;
 }
-
-
 body {
   height: 1007px;
+}
+.stories {
+  display: contents !important;
+}
+#inputForms {
+  background: linear-gradient(45deg, rgba(5, 5, 5, 0.9), rgba(51, 51, 51, 0.9));
+  color: #fdfdfd;
+  text-align: center;
+  padding: 40px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  transition: background 0.3s ease-in-out;
+  border-radius: 10px;
+  /* Add some border radius for a softer look */
+}
+#inputForms button {
+  background-color: #333;
+  height: 28px;
+  /* Darker background color */
+  color: #fdfdfd;
+  /* Light text color */
+  border: 1px solid #666;
+  /* Slightly darker border color */
+
+  /* Increased padding for better readability */
+  font-size: 16px;
+  /* Slightly larger font size */
+  cursor: pointer;
+  border-radius: 8px;
+  /* Rounded corners for the button */
+  margin: 14px;
+  transition: background-color 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+#inputForms button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #666;
+  /* Loading animation color */
+  transition: width 0.3s ease-in-out;
+}
+#inputForms button.loading::before {
+  width: 100%;
+}
+#inputForms button:hover {
+  background-color: #555;
+  /* Darker background color on hover */
+}
+#loading {
+  font-size: 16px;
+  color: #999;
+  /* Slightly lighter text color for loading text */
+  display: none;
+}
+#modelRepoInput {
+  background-color: #333;
+  /* Dark background color for the input field */
+  color: #fdfdfd;
+  /* Light text color */
+  border: 1px solid #666;
+  /* Slightly darker border color */
+  padding: 10px;
+  /* Padding for better readability */
+  font-size: 14px;
+  /* Font size */
+  border-radius: 5px;
+  /* Rounded corners */
+}
+#modelRepoInput:focus {
+  outline: none;
+  /* Remove default focus outline */
+  border-color: #999;
+  /* Lighter border color on focus */
 }
